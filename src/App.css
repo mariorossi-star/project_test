@@ -162,9 +162,9 @@ h3 {
 
 .search-bar-container {
   display: flex;
-  justify-content: center; /* Centers the search bar horizontally */
+  justify-content: right; /* Centers the search bar horizontally */
   align-items: center; /* Centers the search bar vertically */
-  margin: 0px 0; /* Adds some margin above and below */
+  margin: 70px 0; /* Adds some margin above and below */
 }
 
 .search-bar {

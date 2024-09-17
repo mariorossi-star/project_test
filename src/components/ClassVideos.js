@@ -37,7 +37,7 @@ function ClassVideos({ selectedClass, playVideo }) {
             <p className="video-duration">Duration: {Math.floor(video.durations_in_ms / 60000)} minutes</p>
             <div>
               {video.links.map((link, idx) => (
-                <button key={idx} onClick={() => playVideo(link.src)}>
+                <button key={idx} onClick={() => handlePlayVideo(link.src)}>
                   Play {link.name}
                 </button>
               ))}

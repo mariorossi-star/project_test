@@ -51,7 +51,7 @@ function App() {
           )}
           </div>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <ClassList classes={filteredClasses} selectClass={selectClass} />
+          <ClassList classes={filteredClasses} selectClass={selectClass} playVideo={playVideo} />
           
         </div>
       </div>

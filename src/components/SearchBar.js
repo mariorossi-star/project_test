@@ -11,7 +11,7 @@ function SearchBar({ onSearch }) {
   return (
     <input
       type="text"
-      placeholder="Search for classes or videos..."
+      placeholder="Search..."
       value={searchTerm}
       onChange={handleSearch}
       className="search-bar"

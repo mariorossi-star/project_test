@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../App.css'; // Ensure the correct path to your App.css
 
-function ClassList({ classes, selectClass }) {
+function ClassList({ classes, selectClass, playVideo }) {
   const [availableClasses, setAvailableClasses] = useState([]);
   const [randomClasses, setRandomClasses] = useState([]);
 
@@ -13,6 +13,12 @@ function ClassList({ classes, selectClass }) {
     });
 
     selectClass(yogaClass);
+
+    // Automatically play the first video of the class
+    const firstVideoSrc = yogaClass.videos[0]?.links[0]?.src;
+    if (firstVideoSrc) {
+      playVideo(firstVideoSrc);
+    }
   };
 
   const formatClassName = (className) => {
