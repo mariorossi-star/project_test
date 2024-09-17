@@ -37,7 +37,7 @@ function App() {
     <div className='App'>
       <div className="app-title-bar">
         <h1 className="app-title" onClick={handleTitleClick}>
-          <span className="bold-title">Alu</span><span className="normal-title">moves</span>
+          <span className="bold-title">Potato</span><span className="normal-title">Exercises</span>
         </h1>
       </div>
       <div className="content">
