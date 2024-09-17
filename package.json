@@ -1,0 +1,37 @@
+{
+  "name": "project_test",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "homepage": "https://mariorossi-star.github.io/project_test",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "description": ""
+}
